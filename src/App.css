@@ -1,5 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&display=swap");
+
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  color: white;
+}
+
+body {
+  background-color: #282c34;
+}
+
 .App {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .App-logo {
@@ -26,4 +43,51 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.container {
+  width: 40%;
+  border: 1px solid gray;
+}
+
+.result {
+  background-color: gray;
+  height: 40px;
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+  justify-content: center;
+  padding: 1px;
+}
+
+.numPad {
+  display: flex;
+  flex-direction: column;
+  background-color: #ececec;
+}
+
+.btn {
+  width: 25%;
+  height: 40px;
+  color: black;
+  border: 1px solid white;
+}
+
+.btn-orange {
+  color: white;
+  background-color: coral;
+}
+
+.btn-zero {
+  width: 50%;
+}
+
+@media (min-width: 480px) and (max-width: 764px) {
+  .vector {
+    display: none;
+  }
+
+  .container {
+    width: 80%;
+  }
 }
