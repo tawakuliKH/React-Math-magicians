@@ -63,7 +63,7 @@ body {
 .numPad {
   display: flex;
   flex-direction: column;
-  background-color: #ECECEC;
+  background-color: #ececec;
 }
 
 .btn {
