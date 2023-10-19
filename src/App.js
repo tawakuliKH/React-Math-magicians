@@ -1,9 +1,11 @@
 import './App.css';
+import Calculator from './components/Calculator';
 
 function App() {
   return (
     <div className="App">
-      <h1>Math Magicians</h1>
+      <h2>Let&apos;s do some Calculations!</h2>
+      <Calculator />
     </div>
   );
 }
