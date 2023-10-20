@@ -73,6 +73,10 @@ body {
   border: 1px solid white;
 }
 
+.btn:hover {
+  background-color: darkgrey;
+}
+
 .btn-orange {
   color: white;
   background-color: coral;
