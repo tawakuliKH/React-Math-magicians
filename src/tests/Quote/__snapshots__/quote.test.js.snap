@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Quote component renders correctly 1`] = `
+<div
+  className="container-quote"
+>
+  <h2>
+     Quote
+  </h2>
+  <p>
+    Loading...
+  </p>
+</div>
+`;

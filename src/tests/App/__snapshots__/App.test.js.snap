@@ -1,0 +1,66 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App renders correctly 1`] = `
+<div
+  className="App"
+>
+  <div
+    className="navbar"
+  >
+    <div
+      className="title"
+    >
+      Math Magicians
+    </div>
+    <div
+      className="nav-links"
+    >
+      <a
+        className="nav-item"
+        href="/"
+        onClick={[Function]}
+      >
+        Home
+      </a>
+      <a
+        className="nav-item"
+        href="/calculator"
+        onClick={[Function]}
+      >
+        Calculator
+      </a>
+      <a
+        className="nav-item"
+        href="/quote"
+        onClick={[Function]}
+      >
+        Quote
+      </a>
+    </div>
+  </div>
+  <div
+    className="home-content"
+  >
+    <h2>
+      Let's Do Some Calculations!
+    </h2>
+    <div
+      className="calc-quote"
+    >
+      The only equitable manner in my opinion, of judging the character of a man is to examine if there are personal calculations in his conduct; if there are not, we may blame his manner of judging, but we are not the less bound to esteem him.
+      <br />
+      - Madame de Stael
+    </div>
+  </div>
+  <div
+    className="navbar footer"
+  >
+    <a
+      className="nav-menu"
+      to="/"
+    >
+       @copyright 2023
+    </a>
+  </div>
+</div>
+`;
