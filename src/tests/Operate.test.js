@@ -1,5 +1,13 @@
+import renderer from 'react-test-renderer';
 import Big from 'big.js';
-import operate from '../../logic/operate';
+import operate from '../logic/operate';
+
+describe('Operate component', () => {
+  it('renders correctly', () => {
+    const tree = renderer.create(<operate />).toJSON();
+    expect(tree).toMatchSnapshot();
+  });
+});
 
 describe('operate', () => {
   it('adds two numbers correctly', () => {
