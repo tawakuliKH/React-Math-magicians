@@ -61,7 +61,7 @@
 <!-- LIVE DEMO -->
 
 ## 🚀 Live Demo <a name="live-demo"></a>
-- [Soon]()
+<a target='_blank' href="https://math-magicians-react-gs66.onrender.com/" name="live-demo">Watch live Demo Here</a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
